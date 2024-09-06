@@ -1,3 +1,4 @@
+
 print ("Hello World")
 
 
@@ -9,3 +10,9 @@ print (sentence)
 
 data_type = type("nine")
 print(data_type)
+# ----
+sentence = "Verisilimitude"
+
+print(sentence[0:14:2])
+
+print(sentence[5:])
