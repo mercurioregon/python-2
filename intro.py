@@ -16,3 +16,7 @@ sentence = "Verisilimitude"
 print(sentence[0:14:2])
 
 print(sentence[5:])
+
+sentence = "the sum of {0} + {1} is {2}".format(9, 7, 16)
+
+print(sentence)
