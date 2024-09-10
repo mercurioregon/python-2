@@ -30,3 +30,18 @@ new_list.sort()
 new_list.reverse()
 
 print(new_list)
+
+ist_2 =["alpha", "beta", "gamma", "zeta"]
+
+new_list.sort()
+new_list.reverse()
+list_2.reverse()
+final_list = new_list[:3] + list_2[:3]
+
+print(final_list)
+
+big_list = ["a", "b", "c", 2,4,5,["Monday", "Tuesday", "Wednesday"], 5, 7]
+
+small_list = big_list[6][2
+]
+print(small_list)
