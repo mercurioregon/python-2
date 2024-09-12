@@ -71,3 +71,15 @@ dict ["b"] = "Oregon"
 dict ["c"] = "Washington"
 print(dict)
 
+#Booleans and comparison operators
+
+print (11==11)
+print( ("beef" == "BEEF") or (4 == 4) and True)
+print(8 ==8.00)
+print(7 > 8)
+print( 9 >= 9)
+print( 9 != 5)
+
+
+cond = ( not 9==7)
+print(cond)
