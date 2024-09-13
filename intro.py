@@ -96,3 +96,14 @@ my_list = [(1, 2), (3, 4), (['c', 'd', 'a', 'm'], [3, 9, 4, 12], 4), 'TV', 42]
 
 my_list[2] [0] [3]= "x"
 my_list[-2] = "television"
+
+$ # def friday( ):
+#     print("The last day of the work week")
+#
+# friday()
+
+def  badge(nickname =  "bro"):
+    print("Hello there " + nickname + ", what's up?")
+
+badge("Dude")
+
