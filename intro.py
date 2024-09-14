@@ -107,3 +107,14 @@ def  badge(nickname =  "bro"):
 
 badge("Dude")
 
+# def  remainder (num1, num2):
+#     return num1 % num2
+#
+# remainder_value = remainder(55,4)
+# print(remainder_value)
+
+
+def new_sum(*args):
+    return sum(args)
+solution = new_sum(1,2,3,4,5,3,6,3,)
+print(solution)
