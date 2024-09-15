@@ -118,3 +118,29 @@ def new_sum(*args):
     return sum(args)
 solution = new_sum(1,2,3,4,5,3,6,3,)
 print(solution)
+
+#KWARGS
+
+# def key_values(**kwargs):
+#         print(kwargs)
+#         print(kwargs.keys())
+#         print(kwargs.values())
+#         print(kwargs.get("party"))
+#
+# key_values(state = "Oregon", party= "Democrat")
+
+#MORE SCOPE EXAMPLES
+
+def  new_age():
+        age = 52
+        #the above is an example of data outside the scope. running this will only resolve the func below
+
+        def add_4_to_age(age):
+
+                age = age +4
+                #Ths defines the function.  The below line runs it. The print is converted into a string for the answer.
+                print("ADDING METHOD: " + str(age))
+                #Below is  data passed thru from second line in outer func
+        add_4_to_age(age)
+    #below it is run
+new_age()
