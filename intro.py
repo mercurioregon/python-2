@@ -90,57 +90,84 @@ print(my_list [0]["Bill"])
 
 In the list shown below, replace the letter m with the letter x
 and replace the word TV with the word television. Then print my_list.
-"""
+# """
 
-my_list = [(1, 2), (3, 4), (['c', 'd', 'a', 'm'], [3, 9, 4, 12], 4), 'TV', 42]
+# my_list = [(1, 2), (3, 4), (['c', 'd', 'a', 'm'], [3, 9, 4, 12], 4), 'TV', 42]
 
-my_list[2] [0] [3]= "x"
-my_list[-2] = "television"
+# my_list[2] [0] [3]= "x"
+# my_list[-2] = "television"
 
-$ # def friday( ):
-#     print("The last day of the work week")
+# $ # def friday( ):
+# #     print("The last day of the work week")
+# #
+# # friday()
+
+# def  badge(nickname =  "bro"):
+#     print("Hello there " + nickname + ", what's up?")
+
+# badge("Dude")
+
+# # def  remainder (num1, num2):
+# #     return num1 % num2
+# #
+# # remainder_value = remainder(55,4)
+# # print(remainder_value)
+
+
+# def new_sum(*args):
+#     return sum(args)
+# solution = new_sum(1,2,3,4,5,3,6,3,)
+# print(solution)
+
+# #KWARGS
+
+# # def key_values(**kwargs):
+# #         print(kwargs)
+# #         print(kwargs.keys())
+# #         print(kwargs.values())
+# #         print(kwargs.get("party"))
+# #
+# # key_values(state = "Oregon", party= "Democrat")
+
+# #MORE SCOPE EXAMPLES
+
+# def  new_age():
+#         age = 52
+#         #the above is an example of data outside the scope. running this will only resolve the func below
+
+#         def add_4_to_age(age):
+
+#                 age = age +4
+#                 #Ths defines the function.  The below line runs it. The print is converted into a string for the answer.
+#                 print("ADDING METHOD: " + str(age))
+#                 #Below is  data passed thru from second line in outer func
+#         add_4_to_age(age)
+#     #below it is run
+# new_age()
+
+
+def merge_lists(list1, list2):
+    return list1+ list2
+
+new_list = merge_lists(["monday", "tuesday"], ["thursday", "friday"])
+
+print(new_list)
+# list function list() -  turns whatever passes thru into a list(invidiual chars)
+#  .split -  splits the elements into a new string, not the characters
+
+# def separate (str):
+#         return list(str)
 #
-# friday()
+# print (separate("this was a difficult one "))
 
-def  badge(nickname =  "bro"):
-    print("Hello there " + nickname + ", what's up?")
+# -------
 
-badge("Dude")
-
-# def  remainder (num1, num2):
-#     return num1 % num2
+# def multi_merge (list1, string1):
+#         return list1 + string1.split() + list(string1)
 #
-# remainder_value = remainder(55,4)
-# print(remainder_value)
+# print (multi_merge(["Mon", "Tues", "Wed"], "The days of the week;"))
 
-
-def new_sum(*args):
-    return sum(args)
-solution = new_sum(1,2,3,4,5,3,6,3,)
-print(solution)
-
-#KWARGS
-
-# def key_values(**kwargs):
-#         print(kwargs)
-#         print(kwargs.keys())
-#         print(kwargs.values())
-#         print(kwargs.get("party"))
+# def last_list (*args):
+#         return args[-1 ]
 #
-# key_values(state = "Oregon", party= "Democrat")
-
-#MORE SCOPE EXAMPLES
-
-def  new_age():
-        age = 52
-        #the above is an example of data outside the scope. running this will only resolve the func below
-
-        def add_4_to_age(age):
-
-                age = age +4
-                #Ths defines the function.  The below line runs it. The print is converted into a string for the answer.
-                print("ADDING METHOD: " + str(age))
-                #Below is  data passed thru from second line in outer func
-        add_4_to_age(age)
-    #below it is run
-new_age()
+# print (last_list([1,2,3,4,5], ["a", "b","c"], ["hi", "hello"]))
