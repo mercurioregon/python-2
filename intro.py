@@ -171,3 +171,38 @@ print(new_list)
 #         return args[-1 ]
 #
 # print (last_list([1,2,3,4,5], ["a", "b","c"], ["hi", "hello"]))
+
+#CANNOT CONCATENATE STRINGS AND NUMBERS.  USE STR
+
+
+# IF ELSE ELIF
+# animal = "orangutan"
+# if animal == "cow":
+#     print("eats grass")
+# elif animal == "bird":
+#     print("eats worms")
+# elif animal == "monkey" or animal == "orangutan":
+#     print("throws poo")
+# else:
+#     print("unsure what animal does")
+
+#LOOPS
+
+# space_movies = ["star_wars", "star_trek", "serenity", "2001", "ice_pirates"]
+# counter = 0
+#
+# for movie in  space_movies:
+#     counter = counter + 1
+#     sentence = str(counter) +  ") " + movie + "  is my fave sci-fi movie."
+#     print(sentence)
+
+space_movies = "This is just a string of characters in sentence form."
+counter = 0
+
+for char in space_movies:
+    if char == "c":
+       # break
+       # continue
+    counter = counter + 1
+    letters = str(counter) + " " + char
+    print(letters)
