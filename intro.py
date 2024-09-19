@@ -206,3 +206,15 @@ for char in space_movies:
     counter = counter + 1
     letters = str(counter) + " " + char
     print(letters)
+
+
+
+pass #does nothing but prevent error in code.  Used as a placeholder.
+
+
+x = 2
+while x < 10:
+        print(x)
+        x = x + 1.7 # x += 1 (SAME THING)
+else:
+        print("big ol' number")
