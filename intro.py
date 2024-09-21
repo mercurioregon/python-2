@@ -218,3 +218,19 @@ while x < 10:
         x = x + 1.7 # x += 1 (SAME THING)
 else:
         print("big ol' number")
+
+#loop thru DICTIONARIES
+#DEFAULT print just prints keys. /// .items prints the pair /// .values prints the value only
+
+# employees = {"jon" : 65000, "sandy" : 67000, "marvin": 80000, "tom" : 82000}
+#
+# for key, value in employees.items():
+#     print(key)
+#     print(value)
+
+#LOOP THRU TUPLES
+
+employees = [("jon" , 65000), ("sandy" , 67000), ("marvin" , 80000), ("tom" ,  82000)]
+
+for (key,value) in employees:
+    print(key)
