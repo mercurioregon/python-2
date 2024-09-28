@@ -260,3 +260,47 @@ for (key,value) in employees:
 words = ["there", "are", "other", "words", "derp"]
 for item in enumerate(words):
     print(item)
+
+list_a = ["mon", "tues", "wed", "thurs", "fri"]
+list_b = [7,8,9,10,11,12,13]
+# list_c = [1814, 1911, 1941, 1972, 2002, 2024]
+#
+# newlist = list(zip(list_a, list_b, list_c))
+# print(newlist)
+#
+# #UNPACKING THE ZIPPED LIST
+# for a,b,c in newlist:
+#     print(a)
+#     print(b)
+#     print(c)
+
+#LIST CHECKS MIN AND MAX
+
+# print("sat" in list_a)
+
+# answer = max(list_b)
+# print(answer)
+
+#RANDINT PROVIDES RAND NUMBER BUT :
+
+#IMPORT FROM LIBRARY!!!
+
+
+#from random import randint
+# randomnum = randint(0,1000)
+# print(randomnum)
+
+
+# print(mylist)
+#
+# shuffle(mylist)
+#
+# mylist = [1,2,3,4,5,6,7,8,9,10]
+#
+# from random import shuffle
+#
+
+from random import shuffle
+mylist = list (range(101))
+shuffle(mylist)
+print(mylist)
