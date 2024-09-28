@@ -234,3 +234,29 @@ employees = [("jon" , 65000), ("sandy" , 67000), ("marvin" , 80000), ("tom" ,  8
 
 for (key,value) in employees:
     print(key)
+
+#LIST
+
+# word  = "oregon"
+# newWord  = list(word)
+# print (newWord)
+
+# for num in range(12):
+#     print(num)
+
+# for num in range(2, 10, 2):
+#     print(num)
+
+#ZIP
+
+# mynum = [1,2,3,4,5,6]
+# words = ["there", "are", "other", "words", "derp"]
+#
+# for items in zip(mynum, words):
+#     print(items)
+
+#EMUMERATE
+
+words = ["there", "are", "other", "words", "derp"]
+for item in enumerate(words):
+    print(item)
