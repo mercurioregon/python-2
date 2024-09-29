@@ -304,3 +304,14 @@ from random import shuffle
 mylist = list (range(101))
 shuffle(mylist)
 print(mylist)
+
+
+#INPUT
+
+
+last_name = input("Please enter your last name.")
+print(last_name +" is a very cool name.")
+
+#.STRIP REMOVES ANY UNWANTED WHITESPACE
+
+#INT() TO CONVERT STRING BACK TO NUMBER
