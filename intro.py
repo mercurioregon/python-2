@@ -315,3 +315,14 @@ print(last_name +" is a very cool name.")
 #.STRIP REMOVES ANY UNWANTED WHITESPACE
 
 #INT() TO CONVERT STRING BACK TO NUMBER
+
+
+# BAD CODE -- FROM EXERCISES
+#
+# def twelver (a,b):
+# (a == 12 or b == 12 or a+b == 12):
+#
+#
+# twelver(12,6)
+#
+# print(twelver())
