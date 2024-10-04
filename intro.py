@@ -326,3 +326,18 @@ print(last_name +" is a very cool name.")
 # twelver(12,6)
 #
 # print(twelver())
+
+# def sequence(num_list):
+#     for i in range(len(num_list) - 2):
+#         if num_list[i] == 1 and num_list[i + 1]  == 2 and num_list [i +2] == 3:
+#             return True
+#     return False
+# print(sequence((1,5,2,4,7,2,1,5,1,2,3,4)))
+# 
+# def grow_string(str):
+#     result = ""
+#     for i in range(len(str)):
+#         result = result + str[:i+1]
+#     return result
+# 
+# print (grow_string("Seahawks"))
