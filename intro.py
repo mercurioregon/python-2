@@ -341,3 +341,30 @@ print(last_name +" is a very cool name.")
 #     return result
 # 
 # print (grow_string("Seahawks"))
+
+#  .POP etc, = method
+#  max()   = function
+
+
+#BELOW
+# SELF IS AN INSTANCE OF VEHICLE
+class Vehicle:
+
+    color = "red"
+    engine = "v6"
+    vehicle_counter = 0
+    #this is a class attribute that is applied to the vehicles below
+
+    def __init__(self, body_type, make):
+        self.vehicle_body = body_type
+        self. vehicle_make = make
+        Vehicle.vehicle_counter += 1
+
+    def get_vehicle_count(self):
+        return Vehicle.vehicle_counter
+
+car1 = Vehicle("coupe", "Toyota")
+
+car2= Vehicle("truck", "ford")
+
+print(car2.vehicle_counter)
