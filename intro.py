@@ -368,3 +368,25 @@ car1 = Vehicle("coupe", "Toyota")
 car2= Vehicle("truck", "ford")
 
 print(car2.vehicle_counter)
+
+#importing. FROM FOLDER.FILE import CLASS
+
+from machines.machine_stuff import Vehicle
+
+car1 = Vehicle()
+
+from Machine_Folder.machine_stuff import Vehicle
+#
+# #after importing, create a subclass. CLASS NEW CLASS(ORIGINAL CLASS)
+#
+class Truck(Vehicle)
+
+#creating new Trucks means they have to have the same characteristics as the original
+#Vehicle class
+
+
+truck1 = Truck("pickup", "ford")
+truck2 = Truck("semi", "mack")
+truck3 = Truck("cube", "mistubishi")
+print(truck3.get_vehicle_count)
+
