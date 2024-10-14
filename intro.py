@@ -390,3 +390,30 @@ truck2 = Truck("semi", "mack")
 truck3 = Truck("cube", "mistubishi")
 print(truck3.get_vehicle_count)
 
+
+#CLASSES AND SUBCLASSES
+
+class Animal:
+    def __init__(self, name):
+        self.animal_name = name
+    def eat(self):
+        raise NotImplementedError("Child class should be implementing this")
+
+class Monkey(Animal):
+    def eat(self):
+        print("Monkey eats bananas")
+
+class Bird(Animal):
+    def eat(self):
+        print("Eats worms")
+
+    def fly(self):
+        print("Way up there")
+
+
+myMonkey = Monkey("mr scoops")
+myMonkey.eat()
+
+mybird = Bird("sparky")
+mybird.eat()
+mybird.fly()
