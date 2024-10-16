@@ -417,3 +417,44 @@ myMonkey.eat()
 mybird = Bird("sparky")
 mybird.eat()
 mybird.fly()
+
+
+class Shortener:
+    def  __init__(self, items):
+        self.original_items = items
+    def print_original_items(self):
+        print(self.original_items)
+
+class ListAndCharShortener(Shortener):
+     def print_shortener_items(self):
+         print(self.original_items[0:3])
+
+class DictionaryShortener(Shortener):
+    def print_shortener_items(self):
+        dict = self.original_items
+        counter = 0
+        result_dict = {}
+        for (k,v) in dict.items():
+            if(counter <3):
+                result_dict.update({k: v})
+                counter +=1
+        print(result_dict)
+
+# myshort = ListAndCharShortener("Spell your words correctly")
+# myshort.print_shortener_items()
+
+myShortener = DictionaryShortener({1: "mudge", 2: "clem", 3: "frunk", 4: "schmilkis"})
+myShortener.print_shortener_items()
+
+class Employee:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+        #__something__ DUNDER METHODs.
+    def  __str__(self):
+        return self.name + "'s age is " + str(self.age)
+
+bob = Employee("Bob Frink", 70)
+
+print(bob)
