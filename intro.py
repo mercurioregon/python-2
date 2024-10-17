@@ -458,3 +458,12 @@ class Employee:
 bob = Employee("Bob Frink", 70)
 
 print(bob)
+
+
+# Python command line tool can read python, as well as organize and import files
+
+# Python 3.12.7 (tags/v3.12.7:0b05ead, Oct  1 2024, 03:06:41) [MSC v.1941 64 bit (AMD64)] on win32
+# Type "help", "copyright", "credits" or "license" for more information.
+# >>> tom = "hello dude"
+# >>> print(tom)
+# hello dude
