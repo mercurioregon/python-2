@@ -467,3 +467,47 @@ print(bob)
 # >>> tom = "hello dude"
 # >>> print(tom)
 # hello dude
+
+
+#exercise 1 - hierarchy.  Attempt 1
+
+class Animal:
+    def __init__(self):
+
+    def eat(self):
+        raise NotImplementedError("oops")
+    def move(self):
+        raise NotImplementedError("oops")
+
+
+class Dog(Animal):
+    def eat(self):
+         print("Dogs eat beef")
+    def move(self):
+         print("Dogs run with four legs")
+
+class Elephant(Animal):
+     def eat(self):
+         print("Elephants are vegetarians, I think.")
+
+     def move(self):
+          print("Elephants walk with four legs.")
+
+
+class Eagle(Animal):
+      def eat(self):
+            print("Eagles eat mice and insects")
+      def move(self):
+            print("Eagles fly.")
+
+myDog = Dog("ollie")
+myDog.eat()
+myDog.move()
+
+myElephant = Elephant("dumbo")
+myElephant.eat()
+myElephant.move()
+
+myEagle = Eagle("ollie")
+myEagle.eat()
+myEagle.move()
