@@ -511,3 +511,26 @@ myElephant.move()
 myEagle = Eagle("ollie")
 myEagle.eat()
 myEagle.move()
+
+
+#CLOSER TO CORRECT: 
+
+class Animal:
+    def __init__(self):
+        print("They are all animals")
+
+    def move(self):
+        print("All animals move")
+
+    def eat(self):
+        print("All animals eat something.")
+
+
+class Dog(Animal):
+    def __init__(self, dog_age, dog_name):
+        Animal.__init__(self)
+        self.age = dog_age
+        self.name = dog_name
+
+    def move(self):
+        print("Dogs run with 4 legs.")
