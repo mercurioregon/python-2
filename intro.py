@@ -534,3 +534,17 @@ class Dog(Animal):
 
     def move(self):
         print("Dogs run with 4 legs.")
+
+#ERROR HANDLING. TRY / EXCEPT
+
+def sum(num1, num2):
+    try:
+        #this is the code that is supposed to run
+        print(num1+num2)
+    except:
+        #this is the error message
+        print("Oops, there was an error.")
+
+number1 = input("Enter a number")
+
+sum(number1, 12)
