@@ -548,3 +548,22 @@ def sum(num1, num2):
 number1 = input("Enter a number")
 
 sum(number1, 12)
+
+#preventing errors in code.  ISINSTANCE
+
+def sum(num1, num2):
+     if isinstance((num1, int) and (num2, int)):
+         print(num1 + num2)
+     else:
+         print("Invalid date type")
+
+number1 = input("Enter a number")
+
+#directory creation looks a lot like git. import os
+
+import os
+print(os.getcwd())
+#get current directory
+
+# os.chdir()
+#change current directory
